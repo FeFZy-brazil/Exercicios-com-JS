@@ -1,0 +1,62 @@
+body {
+    font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+    background-color: #11100f;
+    margin: 0;
+    padding: 40px;
+    color: #333;
+}
+h1 {
+    text-align: center;
+    color: rgb(0, 220, 13);
+    font-weight: 700;
+}
+.rodape {
+    text-align: center;
+    color: #f3f3f3;
+    font-weight: 500;
+    font-size: 22.5px
+}
+.info {
+    color: rgb(0, 220, 13);
+    font-weight: 700;
+}
+li {
+    list-style-type: none;
+}
+.container-pastas {
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(180px, 1fr));
+    gap: 20px;
+    max-width: 1000px;
+    margin: 40px auto;
+}
+.pasta-card {
+    background: #11100f;
+    padding: 20px;
+    border-radius: 12px;
+    text-align: center;
+    box-shadow: 0 4px 6px white;
+    transition:
+        transform 0.2s,
+        box-shadow 0.2s;
+    cursor: pointer;
+    text-decoration: none;
+    display: block;
+    border: 1px solid white;
+}
+.pasta-card:hover {
+    transform: translateY(-5px);
+    box-shadow: 0 8px 15px rgba(255, 255, 255, 0.1);
+}
+.pasta-card i {
+    font-size: 50px;
+    color: #ffe082;
+    margin-bottom: 12px;
+}
+.pasta-card span {
+    display: block;
+    font-size: 16px;
+    font-weight: 600;
+    color: rgb(0, 255, 15);
+    word-wrap: break-word;
+}

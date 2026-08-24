@@ -1,0 +1,52 @@
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f4f4f4;
+    text-align: center;
+    padding: 40px;
+}
+
+.botaoHome {
+    position: fixed;
+    top: 20px;
+    left: 20px;
+    z-index: 1000;
+    display: inline-block;
+    background-color: #0066cc;
+    color: #f3f3f3;
+    padding: 6px 10px;
+    text-decoration: none;
+    border-radius: 8px;
+    font-family: sans-serif;
+    font-weight: bold;
+    transition: background-color 0.3s;    
+}
+
+.botaoHome:hover {
+    background-color: #004499;
+}
+
+.container {
+    background: white;
+    padding: 30px;
+    border-radius: 12px;
+    max-width: 400px;
+    margin: auto;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+h1 {
+    color: #333;
+}
+
+#contador {
+    font-size: 40px;
+    font-weight: bold;
+    margin: 20px 0;
+}
+
+button {
+    padding: 10px 16px;
+    margin: 5px;
+    font-size: 16px;
+    cursor: pointer;
+}
